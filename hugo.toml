@@ -1,0 +1,29 @@
+baseURL = "http://localhost:1313/"
+languageCode = "ko-kr"
+title = "나의 일기장"
+theme = "PaperMod"
+
+# 홈에 표시할 메인 섹션 폴더들
+mainSections = ["posts", "travel", "cafe"]
+
+[params]
+  ShowReadingTime = true
+  ShowToc = true
+  defaultTheme = "auto"
+
+  [params.homeInfoParams]
+    Title = "환영합니다!"
+    Content = "이 블로그는 취미와 일상을 기록하는 공간입니다."
+[menu]
+
+  [[menu.main]]
+    identifier = "travel"
+    name = "Travel"
+    url = "/travel/"
+    weight = 1
+
+ [[menu.main]]
+    identifier = "cafe"
+    name = "Cafe"
+    url = "/cafe/"
+    weight = 2
