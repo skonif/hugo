@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://main.d352ccvg86iqk8.amplifyapp.com"
 languageCode = "ko-kr"
 title = "나의 일기장"
 theme = "PaperMod"
